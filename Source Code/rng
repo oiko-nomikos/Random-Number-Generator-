@@ -1,4 +1,4 @@
-MIT License
+itMIT License
 
 Copyright (c) 2025 oiko-nomikos
 
@@ -214,8 +214,8 @@ public:
                           // << " | Duration: " << duration << " ns"
                           // << " | Global Avg: " << globalAvg << " ns"
                           // << " | Bit: " << bit
-                          /* << " | SHA-256 (bin): " */ << hashBin; // << "\n";
-                          // << " | SHA-256 (hex): " << hashHex
+                          // << " | SHA-256 (bin): " << hashBin << "\n"
+                          // << " | SHA-256 (hex): " << hashHex;
             }
         }
 
