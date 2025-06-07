@@ -203,7 +203,7 @@ public:
                 // std::string hashHex = hashLocalBits();          // Hex digest
                 // std::string hashBin = hashLocalBits(true);      // Binary digest
 
-                // Split binary string into bytes and print each as 8-bit binary
+                // Optional: Split binary string into bytes and print each as 8-bit binary
                 for (size_t i = 0; i + 7 < hashBin.size(); i += 8) {
                     std::string byteStr = hashBin.substr(i, 8);
                     std::cout << byteStr << " ";
