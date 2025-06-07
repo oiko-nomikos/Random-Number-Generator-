@@ -88,7 +88,7 @@ Deterministic SHA-256: Matches known-good test vectors.
 
 Bit-level entropy sourcing: Suitable for seeding or augmenting PRNGs.
 
-Compact and modular: ~300 lines for SHA-256, ~100 for RNG.
+Compact and modular: ~ 244 lines total for SHA-256 and RNG.
 
 ---
 
