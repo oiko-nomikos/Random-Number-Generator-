@@ -213,6 +213,9 @@ public:
             }
         }
 
+        std::cout << "\n | Count: " << count
+                  << " | Global Avg: " << globalAvg << " ns";
+
         std::cout << "\nFinal 512-bit buffer:\n";
         for (int bit : localBits)
             std::cout << bit;
